@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <title>Mercedes</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    
+    <style>
+        body { font-family: 'Open Sans', sans-serif; }
+        h1, h2, h3 { font-family: 'Montserrat', sans-serif; font-weight: 700; }
+        
+        /* Navbar Stili */
+        .navbar { background: #141313af; border-bottom: 1px solid #1a1818; padding: 1.5rem 0; }
+        .nav-link { color: #ffffff !important; font-weight: 600; text-transform: uppercase; font-size: 14px; }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://pchocasi.com.tr/wp-content/uploads/2023/08/amggtsis.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            color: rgb(255, 255, 255);
+            text-align: center;
+        }
+
+        .btn-primary-custom {
+            background-color: #155769;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 50px;
+            font-weight: bold;
+        }
+
+        /* Portfolio Görselleri için */
+      .portfolio-item img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        transition: transform 0.3s;
+      }
+      .portfolio-item img:hover {
+        transform: scale(1.02); /* Üzerine gelince hafif büyüyen resimler iöin */
+      }
+
+
+        /* Özellikler Kartları */
+        .feature-box {
+            padding: 40px;
+            border-radius: 10px;
+            transition: 0.3s;
+            background: #c20707;
+            box-shadow: 0 10px 30px rgba(238, 9, 9, 0.05);
+        }
+        .feature-box:hover { transform: translateY(-10px); }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-3" href="#">MERCEDES</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Anasayfa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Hizmetler</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">satış </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">7/24 yol yardım</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">İletişim</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <!-- Offcanvas Sidebar  HAMBURGER 3 çizg-->
+<div class="offcanvas offcanvas-start text-bg-dark" id="demo">
+  <div class="offcanvas-header">
+    <h1 class="offcanvas-title">diğer</h1>
+    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="container mt-3">
+  <h2>Vertical Nav</h2>
+  <p>Use the .flex-column class to create a vertical nav:</p>
+  <ul class="nav flex-column">
+    <li class="nav-item">
+      <a class="nav-link" href="#">HOME</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">ABOUT ME</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">PORTFOLYO</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#">CONTACT ME</a>
+    </li>
+  </ul>
+</div>
+    <button class="btn btn-secondary" type="button">SERVİCE</button>
+  </div>
+</div>
+
+
+  <button class="btn btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+     ≡ 
+  </button>
+</div>
+  
+</button>
+        <div class="container">
+            <h1 class="display-1 mb-4">Mercedes-AMG GT</h1>
+            <p class="lead mb-5">Geleceği şekilendiren modern teknolojik tasarımlar.</p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="#" class="btn btn-primary-custom">Hemen Başla</a>
+                <a href="#" class="btn btn-outline-light px-4 py-2 rounded-pill fw-bold">Daha Fazla Bilgi</a>
+            </div>
+        </div>
+    </header>
+    <p>
+        <p>
+
+        </p>
+    </p>
+ <h2 class =" text-align text-center">Mercedes-AMG</h2>
+
+   <!--portfolio görsel kısmı-->
+<section id="portfolio" class="container py-5">
+     <p class =" text-align text-center"> BENZ/GALLERİ </p>
+      <div class="row g-1">
+        
+        <div class="col-md-4 portfolio-item">
+          <img src="https://www.mercedes-benz.com.tr/content/dam/hq/passengercars/cars/amg-gt/amg-gt-2-doors-coupe-c192/pad/highlights/06-2023/images/mercedes-amg-gt-c192-pad-higlights-exterior-3302x1858-06-2023.jpg/1740018473439.jpg?im=Crop,rect=(0,0,3302,1857);Resize=(1280,720)" alt="Work 1">
+        </div>
+        <div class="col-md-4 portfolio-item">
+          <img src="https://www.mercedes-benz.com.tr/content/dam/hq/passengercars/cars/amg-gt/amg-gt-2-doors-coupe-c192/pad/stage/06-2023/images/mercedes-amg-gt-c192-pad-stage-3840x3840-06-2023.jpg/1740018468148.jpg?im=Crop,rect=(1173,1137,2226,2226);Resize=(828,828)" alt="Work 1">
+        </div>
+        <div class="col-md-4 portfolio-item">
+          <img src="https://www.mercedes-benz.com.tr/content/dam/hq/passengercars/cars/amg-gt/amg-gt-2-doors-coupe-c192/pad/highlights/06-2023/images/mercedes-amg-gt-c192-pad-highlights-videostill-3302x1858-06-2023.jpg" alt="Work 1">
+        </div>
+<img src="mercedes gri.jpeg" class="rounded" alt="Cinque Terre">
+        <div class="col-md-4 portfolio-item">
+          <img src="https://www.mercedes-benz.com.tr/content/dam/hq/passengercars/cars/amg-gt/amg-gt-2-doors-coupe-c192/leasing/finance-leasing/07-2023/images/mercedes-amg-gt-c192-finance-leasing-standard-leasing-764x573-07-2023.jpg/1740018619556.jpg?im=Crop,rect=(0,0,764,573);Resize=(512,384)" alt="Work 1">
+        </div>
+        <div class="col-md-4 portfolio-item">
+          <img src="https://images.prismic.io/carwow/49251f28-a961-48f4-92d7-764332eb6c62_LHD+Mercedes-AMG+GT+Coupe+2024+Exterior-12.jpg?auto=format&cs=tinysrgb&fit=max&q=60" alt="Work 2">
+        </div>
+        <div class="col-md-4 portfolio-item">
+          <img src="https://pchocasi.com.tr/wp-content/uploads/2023/08/amggtengine-2048x1365.jpg" alt="Work 3">
+        </div>
+      </div>
+    </section>
+
+
+    <section class="py-5 bg-light">
+        <div class="container py-2 mb-1">
+            <div class="text-center mb-5">
+                <h2 class="mb-3">Mercedes Yetkili servis</h2>
+                <p class="text-muted">En iyi teknoloji ile donatılmış profesyonel araçlar.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="feature-box text-center">
+                        <h4 class="mb-3">Mercedes'i Keşfedin</h4>
+                        
+                        <p class="text-muted">Ayro dinamik ve sanatsal estetik tasarımlar.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box text-center">
+                        <h4 class="mb-3">Satış </h4>
+                        <p> Güncel kanpanyalar</p>
+                        <p> Sıfır otomobiler</p>
+
+                        
+                        
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box text-center">
+                        <h4 class="mb-3">7/24 Destek</h4>
+                        <p class="text-muted">Her türlü teknik sorunuzda uzman ekibimiz yanınızda.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
